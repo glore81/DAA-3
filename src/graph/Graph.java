@@ -17,9 +17,9 @@ public class Graph {
         this.edges = new ArrayList<>();
     }
 
-    public void addUndirectedEdge(int u, int v, int weight){
+    public void addUndirectedEdge(int u, int v, double weight){
         Edge e1 = new Edge(u, v, weight);
-        Edge e2 = new Edge(u, v, weight);
+        Edge e2 = new Edge(v, u, weight);
         adj.get(u).add(e1);
         adj.get(v).add(e2);
         edges.add(e1);
