@@ -25,7 +25,7 @@ public class Graph {
         edges.add(e1);
     }
 
-    public void addDirectedEdge(int u, int v, int weight) {
+    public void addDirectedEdge(int u, int v, double weight) {
         Edge e = new Edge(u, v, weight);
         adj.get(u).add(e);
         edges.add(e);
