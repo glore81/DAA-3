@@ -1,0 +1,4 @@
+Size,V,E,Kruskal_Time_ms,Kruskal_Ops,Prim_Time_ms,Prim_Ops,Weight_Matches
+Small,10,30,0.0173,46,0.0257,40,true
+Medium,100,500,0.1785,1883,0.1143,826,true
+Large,1000,5000,1.0580,21045,0.7993,8588,true

@@ -1,0 +1,4 @@
+Size,V,E,Kosaraju_Time_ms,Kosaraju_Ops,SCC_Count,Topo_Time_ms,Has_Cycle
+Small,10,30,0.0105,120,2,0.0062,true
+Medium,100,500,0.0924,1800,2,0.0670,true
+Large,1000,5000,0.4860,18000,17,0.4289,true
